@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <body>
+        <div class="box1">
+            <h1 style="padding: 35px;">Utstyrsoversikt</h1>
+        </div>
     
+        <h2>Registrer nytt utstyr</h2>
+        <form id="add-item-form">
+            <input type="text" id="item-name" placeholder="Navn på utstyr" required>
+            <input type="file" id="item-image" required>
+            <button type="submit">Legg til utstyr</button>
+        </form>
+    
+        <h2>Liste over utstyr</h2>
+        <div class="box2">
+            <ul id="item-list"></ul>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
 </body>
 </html>
