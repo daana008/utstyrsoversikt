@@ -1,2 +1,2 @@
-# good-mr
-a very good mr
+# utstyrsliste 
+en utstyrs oversikt liste
